@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "http": {
+      "routePrefix": "",
+      "maxOutstandingRequests": 200,
+      "maxConcurrentRequests": 200,
+      "dynamicThrottlesEnabled": false
+    }
+  },
+  
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[3.*, 4.0.0)"
+  },
+  "healthMonitor": {
+    "enabled": true
+  },
+  "logging": {
+    "fileLoggingMode": "always"
+  },
+  "scaling": {
+    "maxInstances": 200
+  }
+}
