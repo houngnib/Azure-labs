@@ -1,3 +1,6 @@
+#this code is used to run in local machine the flask application and also on the VMSS
+
+#produce by RYCH
 from flask import Flask, request, jsonify
 import numpy as np
 
