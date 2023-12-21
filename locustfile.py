@@ -1,3 +1,6 @@
+#this is the script use to run locust on VMSS and local machine
+#the one use for the Function App is stored in the Function App repo
+
 import time 
 from locust import HttpUser, task, between
 
