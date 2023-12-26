@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=rychlab1;AccountKey=Ut1JXwvuGb43rF9NwTuHx6wzZ1/y4pZGNcaZzw3x5k762D/zvlZirfXecACvPa0WwDIdTlM5uNSg+AStzaUquw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing"
+  }
+}
